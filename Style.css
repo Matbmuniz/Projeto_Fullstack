@@ -117,6 +117,7 @@ ul ul a{
 	margin: 0 auto;
 	display: flex;
 	border: 1px solid #ccc;
+    padding: 10px;
 }
 .item {
 	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
@@ -135,4 +136,7 @@ h1 {
 body {
 	font-family: monospace;
 	color: #333;
+}
+img {
+    padding: 5px;
 }
