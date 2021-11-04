@@ -3,24 +3,125 @@
 <head>
 
     <meta change="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Site para Viagens" content="" />
+    <meta name="Henrique/Matheus" content="" />
+
     <title>Bem Vindo ao meu mundo!</title>
-    <link rel="stylesheet" type="text/css" href="Style.css" media="screen" />
+
+    <link rel="icon" type="image/x-icon" href="Imagem/logo.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <nav id="sidebar">
+
+            <div class="sidebar-header">
+                <h3>
+                    Agencia de Viagem
+                </h3>
+            </div>
+
+            <ul class="lisst-unstyled components">
+
+                <p>Menu</p>
+
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Viagens</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Nacional</a>
+                        </li>
+                        <li>
+                            <a href="#">Internacional</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#">Hospedagem</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pacotes</a>
+                    <ul class=" collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Nacional</a>
+                        </li>
+                        <li>
+                            <a href="#">Internacional</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Carros</a>
+                </li>
+                <li>
+                    <a href="#">Promoções</a>
+                </li>
+                <li>
+                    <a href="#">Fale Conosco</a>
+                </li>
+            </ul>
+
+        </nav>
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>
+                            qualquer coisa
+                        </span>
+
+                    </button>
+                </div>
+
+            </nav>
+
+            <br><br>
+            <h2>Boas-vindas! <br>
+                Aqui você encontra tudo o que vcê precisa para sua viagem ser incrivel.</h2>
+            <p>
+                Economize no aluguel de carros pesquisando por ofertas no KAYAK. O KAYAK pesquisa ofertas de aluguel de veículos em centenas de sites de locadoras para ajudar você a encontrar a diária mais barata. Se você estiver procurando por um aluguel de carro no aeroporto ou apenas um carro barato perto de você, você pode comparar o valor dos aluguéis com desconto e reservar as melhores ofertas mais rápido
+            </p>
+            <p>
+                Na CVC você encontra pacotes com passagem aérea, hotel, passeios e serviços que garantem uma viagem mais tranquila! São milhares de opções de pacotes nacionais e internacionais, perfeitos para você!
+            </p>
+
+            <div class="line"></div>
+            <h3>Quer saber mais?</h3>
+
+            <p>
+                Na CVC você encontra pacotes com passagem aérea, hotel, passeios e serviços que garantem uma viagem mais tranquila! São milhares de opções de pacotes nacionais e internacionais, perfeitos para você!
+            </p>
+
+        </div>
 
 
-    </head>
-    <body>
+    </div>
 
-    <h1>
-        Henrique pai do impressão e postagem
-    </h1>
-        <h2>
-            Projeto de viagem
-        </h2>
-        <h3>
-            Matheus Patrão
-        </h3>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+    </script>
 
 
+</body>
+</html>
 
-    </body>
-    </html>
