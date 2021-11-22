@@ -12,22 +12,45 @@
     <link rel="icon" type="image/x-icon" href="Imagem/logo.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <link rel="stylesheet" href="Style.css">
 
 </head>
 <body>
+    <!--Imagens do topo index-->
+    <section class="containerIndex">
+        <img src="Imagem/maldivas.png" width="150" height="150"></div>
+        <img src="Imagem/disney.png" width="150" height="150"></div>
+        <img src="Imagem/chile.png" width="150" height="150"></div>
+        <img src="Imagem/curitiba.png" width="150" height="150"></div>
+        <img src="Imagem/roma.png" width="150" height="150"></div>
+        <img src="Imagem/dubai.png" width="150" height="150"></div>
+        <img src="Imagem/egito.png" width="150" height="150"></div>
+        <img src="Imagem/paris.png" width="150" height="150"></div>
+        <img src="Imagem/caribe.png" width="150" height="150"></div>
+        <img src="Imagem/grecia.png" width="150" height="150"></div>
+
+    </section>
+
+
+
     <div class="wrapper">
 
         <nav id="sidebar">
 
+
             <div class="sidebar-header">
                 <h3>
-                    Agencia de Viagem
+                    <img src="Imagem/logo.png" width="130" height="130">
+
                 </h3>
             </div>
 
+
             <ul class="lisst-unstyled components">
+
 
                 <p>Menu</p>
 
@@ -60,24 +83,51 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Carros</a>
+                    <a href="Carros.html" target="_blank"> Carros </a>
+
                 </li>
                 <li>
                     <a href="#">Promoções</a>
                 </li>
+
                 <li>
                     <a href="#">Fale Conosco</a>
                 </li>
-            </ul>
 
+            </ul>
+            <div>
+                <main>
+                    <h4>Criar Conta</h4>
+
+                    <form action="">
+                        <label for="name">
+                            <span>Nome</span>
+                            <input type="text" id="name" name="name">
+                        </label>
+
+                        <label for="email">
+                            <span>E-mail</span>
+                            <input type="email" id="email" name="email">
+                        </label>
+
+                        <label for="password">
+                            <span>Senha</span>
+                            <input type="password" id="password" name="password">
+                        </label>
+
+                        <input type="submit" value="Salvar" id="button">
+                    </form>
+                </main>
+            </div>
         </nav>
+
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
                         <i class="fas fa-align-left"></i>
                         <span>
-                            qualquer coisa
+                            Veja mais
                         </span>
 
                     </button>
@@ -85,34 +135,108 @@
 
             </nav>
 
+            
+
+
+
             <br><br>
-            <h2>Boas-vindas! <br>
-                Aqui você encontra tudo o que vcê precisa para sua viagem ser incrivel.</h2>
+            <h2>Bem vindos a TRAVELING NOW! <br></h2>
             <p>
-                Economize no aluguel de carros pesquisando por ofertas no KAYAK. O KAYAK pesquisa ofertas de aluguel de veículos em centenas de sites de locadoras para ajudar você a encontrar a diária mais barata. Se você estiver procurando por um aluguel de carro no aeroporto ou apenas um carro barato perto de você, você pode comparar o valor dos aluguéis com desconto e reservar as melhores ofertas mais rápido
+                Aqui na TRAVELING NOW você encontra tudo o que vcê precisa para sua viagem ser incrivel.
             </p>
+
+
             <p>
-                Na CVC você encontra pacotes com passagem aérea, hotel, passeios e serviços que garantem uma viagem mais tranquila! São milhares de opções de pacotes nacionais e internacionais, perfeitos para você!
+                Você quer economizar em sua viagem com passagens, hopedagens, passeios e aluguel de carros? Na TRAVELING NOW você pode encontrar
+                os melhores destinos com ofertas increiveis, no Brasil e no mundo. <br>
+
             </p>
+
 
             <div class="line"></div>
             <h3>Quer saber mais?</h3>
 
             <p>
-                Na CVC você encontra pacotes com passagem aérea, hotel, passeios e serviços que garantem uma viagem mais tranquila! São milhares de opções de pacotes nacionais e internacionais, perfeitos para você!
+                Temos toda segurança necessaria para você aproveitar suas férias, e ter um descanso tranquilo! <br>
+                As melhores atrações, passeios, documentação, dicas sobre onde ficar e restaurantes. Encontre
+                aqui o que você quer saber sobre sua próxima viagem, inspire-se e planeje suas férias com a TRAVELING NOW!
             </p>
 
         </div>
+        
+        <div class="container-fluid p-0 container-sm d-flex justify-content-center ">
+            <!--Botão do tempo -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="card" class="btn btn-info">
+                        <i class="fas fa-align-right"></i>
+                        <span>
+                            Esconder
+                        </span>
 
+                    </button>
+                    
+                </div>
 
+            </nav>
+            <div class="card text-center shadow-lg" style="width: 15rem; height: 38rem;">
+
+                <div class="card-header bg-white text-dark font-weight-bold">
+                    TEMPO E TEMPERATURA
+                </div>
+
+                <div class="card-body">
+                    <div class="city">Cidade Exemplo, BR</div>
+                    <div class="date">Terça, 1 Dezembro 2020</div>
+                    <div class="container-img">
+                        <img src="./icons/unknown.png">
+                    </div>
+                    <div class="container-temp mx-4 my-3">
+                        <div>22</div>
+                        <span>°c</span>
+                    </div>
+                    <div class="weather py-2">Nublado</div>
+                    <div class="low-high">22°c / 23°c</div>
+                </div>
+
+                <div class="card-footer bg-white">
+                    <div class="input-group ">
+                        <input type="text" class="form-control bg-light" placeholder="digite o nome da cidade" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-warning text-dark" type="button" id="button-addon2">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
     </div>
+               
+
+    <script>
+
+        $(document).ready(function () {
+            $('#container-temp').on('click', function () {
+                $('#btn').toggleClass('active');
+            });
+        });
+
+    </script>
+
+   
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+
     <script>
-        
+
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
@@ -121,7 +245,7 @@
 
     </script>
 
-
+    
 </body>
 </html>
 
